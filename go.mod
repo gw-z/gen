@@ -3,7 +3,7 @@ module github.com/myzgw/gen
 go 1.19
 
 require (
-	golang.org/x/tools v0.5.0
+	golang.org/x/tools v0.8.0
 	gopkg.in/yaml.v3 v3.0.1
 	gorm.io/datatypes v1.1.0
 	gorm.io/driver/mysql v1.4.6
@@ -27,7 +27,7 @@ require (
 	github.com/mattn/go-sqlite3 v1.14.15 // indirect
 	github.com/microsoft/go-mssqldb v0.19.0 // indirect
 	golang.org/x/crypto v0.4.0 // indirect
-	golang.org/x/mod v0.7.0 // indirect
-	golang.org/x/sys v0.4.0 // indirect
+	golang.org/x/mod v0.10.0 // indirect
+	golang.org/x/sys v0.7.0 // indirect
 	golang.org/x/text v0.5.0 // indirect
 )
