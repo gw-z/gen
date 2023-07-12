@@ -1,8 +1,6 @@
 package main
 
 import (
-	"strings"
-
 	"github.com/myzgw/gen"
 
 	"github.com/myzgw/gen/examples/conf"
@@ -22,10 +20,11 @@ var dataMap = map[string]func(detailType string) (dataType string){
 
 	// bool mapping
 	"tinyint": func(detailType string) (dataType string) {
-		if strings.HasPrefix(detailType, "tinyint(1)") {
-			return "bool"
-		}
-		return "byte"
+		//if strings.HasPrefix(detailType, "tinyint(1)") {
+		//	return "bool"
+		//}
+		//return "byte"
+		return "int"
 	},
 }
 
